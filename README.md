@@ -19,7 +19,7 @@
 ## Contributors :
 * Aditya - Home page etc
 * Rohit - Not decided
-* Akash - Not decided
+* Akash -  decided
 * Suraj - Not decided
 
   #### waiting for more...
