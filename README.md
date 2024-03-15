@@ -20,7 +20,8 @@
 * Aditya - Home page etc
 * Rohit - Not decided
 * Akash - Not decided
-* Suraj - Not decided
+* Sachin - Not decided
+
 
   #### waiting for more...
 
