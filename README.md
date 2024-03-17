@@ -17,11 +17,9 @@
 >7) more rule if needed
 
 ## Contributors :
-* Aditya - Home page etc
-* Rohit - Not decided
-* Akash - Not decided
-* Suraj - Not decided
-
+* Aditya - Home page 2 etc
+* Sachin - home 1
+* Akash -  home 3
   #### waiting for more...
 
 ### website basic layout 
