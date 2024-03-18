@@ -6,43 +6,44 @@
     <title>ADD page two title please</title>
     <!-- css link -->
     <link rel="stylesheet" href="../../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
    
 </head>
-<body>
+
     <body class="max-w-[100vw] h-[100vh] box-border font-Inter">
         <!-- Header section  -->
-        <header class="">
-            <div class=" bg-[#634C9F] text-white flex justify-center ">
+        <header class="w-full">
+            <div class="w-full h-[40px] bg-[#634C9F] text-white">
                        <!-- 1st bar -->
-                <div class="h-full flex  items-center w-[full] m-auto text-[0.7vw] gap-[0.8vw]">
+                <div class="h-full flex justify-between items-center w-[1360px] responsive2xl responsiveXl  m-auto text-[12px]">
                     <!-- left -->
-                    <div class="w-[30vw]">
+                    <div class="">
                         <h4>FREE delivery & 40% Discount for next 3 orders! Place your 1st order in.</h4>
                     </div>
                     <!-- right -->
-                    <div class="text-[#ccc] relative right-[0.8vw] w-[30vw]">
-                        <h4 class="flex h-full items-center gap-[0.5vw]">Until the end of the sale: 
-                            <span class="text-white text-[] font-semibold">47</span>days
-                            <span class="text-white text-[] font-semibold">06</span>hours
-                            <span class="text-white text-[] font-semibold">57</span>minute
-                            <span class="text-white text-[] font-semibold">08</span>sec
+                    <div class="text-[#ccc] relative right-40">
+                        <h4 class="flex h-full items-center gap-10">Until the end of the sale: 
+                                                    <span id="day" class="text-white text-[18px] font-semibold">47</span>days
+                                                    <span id="hr" class="text-white text-[18px] font-semibold">06</span>hours
+                                                    <span id="min" class="text-white text-[18px] font-semibold">57</span>minute
+                                                    <span id="sec" class="text-white text-[18px] font-semibold">08</span>sec
                         </h4>
                     </div>
                 </div>
             </div>
             <hr>
             <!-- 2nd bar -->
-            <div class="w-[full] h-[2w] m-auto flex justify-around items-center text-[0.9vw] mt-[2vh] mb-[1vh]">
+            <div class="w-[1360px] responsive2xl responsiveXl m-auto flex justify-between text-[12px]">
                 <!-- left part -->
-                <div class="h-[0.3vh] flex items-center gap-5  text-xs font-medium">
+                <div class="h-[40px] flex items-center gap-5 ">
                     <div class=""><a href="">About Us</a></div>
                     <div class=""><a href="#">My account</a></div>
                     <div class=""><a href="#">Wishlist</a></div>
-                    <div class="bg-[#ccc] h-[12] w-[1]"></div>
+                    <div class="bg-[#ccc] h-[12px] w-[1px]"></div>
                     <div class=""><p>We deliver to you every day from: <span class="text-[#EA580C] font-bold">7:00 to 23:00</span></p></div>
                 </div>
                 <!-- right part -->
-                <div class="h-[0.8vh] flex items-center gap-5  ">
+                <div class="h-[40px] flex items-center gap-5  ">
                     <p>English <i class="ri-arrow-down-s-line"></i></p>
                     <p>USD <i class="ri-arrow-down-s-line"></i></p>
                     <p>Order Tracking</p>
@@ -50,18 +51,18 @@
             </div>
             <hr>
             <!-- 3rd main bar -->
-            <div class="w-[] m-auto flex justify-between h-[80px] items-center">
+            <div class="w-[1360px] responsive2xl responsiveXl m-auto flex justify-between h-[80px] items-center">
                 <!-- logo -->
-                <div class="">
-                    <img src="./assets/logo.png" alt="">
+                <div class="w-[120px] max-2xl:w-[100px]">
+                    <img class="w-full" src="../../assets home3/Link → grogin-logo-dark.png.png" alt="main-logo">
                 </div>
-                <div class="flex items-center justify-center gap-3 bg-[#F0EEF6] w-[130px] h-[46px] rounded-xl font-bold">
-                    <i class="ri-menu-line"></i>
-                    <h3 class="text-[#634C9F]">Categories</h3>
+                <div class="flex items-center justify-center gap-3 bg-[#F0EEF6] w-[30px] h-[30px] max-2xl:w-[110px] max-2xl:h-[38px] max-xl:w-[30px] max-xl:h-[30px]  rounded-[50%] font-bold">
+                    <span ><i class="ri-map-pin-line text-[#634C9F] max-l:text-[12px] max-xl:text-[11px]"></i></span>
                 </div>
-                <div class="w-[] flex relative">
-                    <input class="w-full border bg-[#F3F4F6] h-[] rounded-xl placeholder:pl-[]" type="text" placeholder="Search for products, categories or brands...">
-                    <i class="ri-search-line text-[26px] absolute right-2 top-1"></i>
+                <span>Deliver to <hr> all</span>
+                <div class="w-[730px] max-2xl:w-[700px] max-xl:w-[550px] flex relative">
+                    <input class="w-full border bg-[#F3F4F6] h-[46px] max-2xl:h-[40px] max-xl:h-[35px] rounded-xl placeholder:pl-[20px] max-2xl:placeholder:text-[13px] max-xl:placeholder:text-[11px]" type="text" placeholder="Search for products, categories or brands...">
+                    <i class="ri-search-line text-[26px] max-2xl:text-[20px] max-xl:text-[18px] absolute right-2 top-1"></i>
                 </div>
                 <div class="flex gap-5">
                     <h4 class=""><i class="ri-user-3-line"></i> Account</h4>
@@ -71,14 +72,14 @@
             </div>
             <hr>
             <!-- 4th nav bar -->
-            <div class="w-[] h-[5] m-auto flex justify-between items-center text-[]">
+            <div class="w-[1360px] responsive2xl responsiveXl h-[50px] m-auto flex justify-between items-center text-[15px]">
                 <!-- left -->
                 <div class="">
                     <ul class="flex gap-5 font-bold">
-                        <li><a href="../../index.html">Home <i class="ri-arrow-down-s-line"></i></a> </a></li>
+                        <li><a href="#">Home <i class="ri-arrow-down-s-line"></i></a></li>
                         <li><a href="#">Shop <i class="ri-arrow-down-s-line"></i></a></li>
-                        <li><a href="./Home3.html">Fruits & Vegetables</a></li>
-                        <li><a href="#">Beverages</a></li>
+                        <li><a href="#">Fruits & Vegetables</a></li>
+                        <li><a href="./src/Home 3 page/Home3.html">Beverages</a></li>
                         <li><a href="./src/Blog page/Home3.html">Blog</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
@@ -87,10 +88,48 @@
                 <div>
                     <ul class="flex gap-5 font-bold">
                         <li><a href="#">Trending Products <i class="ri-arrow-down-s-line"></i></a></li>
-                        <li class="text-[#DC2626]"><a href="#">Almost Finished<span class="text-white text-[] px-[] py-[] bg-[#DC2626] mx-[] rounded-xl">SALE</span> <i class="ri-arrow-down-s-line"></i></a></li>
+                        <li class="text-[#DC2626]"><a href="#">Almost Finished<span class="text-white text-[10px] px-[5px] py-[4px] bg-[#DC2626] mx-[5px] rounded-xl">SALE</span> <i class="ri-arrow-down-s-line"></i></a></li>
                     </ul>
                 </div>
             </div>
         </header>
-</body>
+        <hr>
+        <!-- Main Section -->
+        <main class="bg-hero-pattern bg-no-repeat bg-cover max-w-[100vw] h-[70vh] max-2xl:h-[38vw] max-xl:h-[36vw] flex items-center">
+            <div class="w-[1360px] responsive2xl responsiveXl m-auto ">
+                <div class="mb-5">
+                    <span class="text-[#166534] font-semibold bg-gradient-to-r from-[#16a34a78] w-[123px] py-[10px] pl-[10px] rounded-lg">Weekend </span>
+                    <span class="text-[#166534] font-semibold">Discount </span>
+                </div>
+                <h1 class="text-[#39245F] text-[58px] max-2xl:text-[45px] max-xl:text-[40px] max-2xl:leading-[50px] font-bold leading-[63px]  mb-5" >
+                    Get the best quality <br>
+                    products at the lowest<br>
+                    prices
+                </h1>
+                <p class="text-[16px] font-medium mb-5">We have prepared special discounts for you on organic products. <br>
+                    Don't miss these opportunities...</p>
+                <div class="flex gap-5">
+                    <button class="bg-[#634C9F] text-white px-[40px] py-[12px] max-2xl:px-[35px] max-2xl:py-[10px] max-xl:px-[34px]  max-xl:py-[0px] max-2xl:text-[16px] max-xl:text-[14px] text-[18px] font-bold rounded-xl">Shop Now</button>
+                    <div>
+                        <h3 class="text-[#DC2626] text-[28px] font-bold">$21.67<span class="text-black text-[19px] font-semibold line-through">$26.67</span></h3>
+                        <p class="text-[15px] text-[#7a7a7a]">Don't miss this limited time offer.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- food categories section  -->
+        <section>
+            <div class="w-full">
+                <div class="p-5 w-[500px] flex justify-between">
+                    <h2 class="flex text-2xl font-bold ">Top Categories</h2>
+                    <p class="text-[#9CA3AF]">New products with updated stocks.</p>
+                </div>
+                
+                <div>
+                    <button>View All</button>
+                </div>
+                
+            </div>
+        </section>
+    </body>
 </html>
