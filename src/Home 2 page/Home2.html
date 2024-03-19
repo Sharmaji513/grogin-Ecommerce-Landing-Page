@@ -1,13 +1,512 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADD page two title please</title>
-    <!-- css link -->
-    <link rel="stylesheet" href="../../style.css">
-</head>
-<body>
-    <h1 class="text-red-600">This Home 2 Page form Figma</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <!-- LINK -->
+    <link rel="stylesheet" href="../../style.css" />
+    <!-- Icon CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="max-w-[100vw] h-[100vh] box-border font-Inter">
+    <!-- Header section  -->
+    <header class="w-full">
+      <div class="w-full h-[40px] bg-[#634C9F] text-white">
+        <!-- 1st bar -->
+        <div
+          class="h-full flex justify-between items-center w-[1360px] responsive2xl responsiveXl m-auto text-[12px]"
+        >
+          <!-- left -->
+          <div class="">
+            <h4>
+              FREE delivery & 40% Discount for next 3 orders! Place your 1st
+              order in.
+            </h4>
+          </div>
+          <!-- right -->
+          <div class="text-[#ccc] relative right-40">
+            <h4 class="flex h-full items-center gap-10">
+              Until the end of the sale:
+              <span id="day" class="text-white text-[18px] font-semibold"
+                >47</span
+              >days
+              <span id="hr" class="text-white text-[18px] font-semibold"
+                >06</span
+              >hours
+              <span id="min" class="text-white text-[18px] font-semibold"
+                >57</span
+              >minute
+              <span id="sec" class="text-white text-[18px] font-semibold"
+                >08</span
+              >sec
+            </h4>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <!-- 2nd bar -->
+      <div
+        class="w-[1360px] responsive2xl responsiveXl m-auto flex justify-between text-[12px]"
+      >
+        <!-- left part -->
+        <div class="h-[40px] flex items-center gap-5">
+          <div class=""><a href="">About Us</a></div>
+          <div class=""><a href="#">My account</a></div>
+          <div class=""><a href="#">Wishlist</a></div>
+          <div class="bg-[#ccc] h-[12px] w-[1px]"></div>
+          <div class="">
+            <p>
+              We deliver to you every day from:
+              <span class="text-[#EA580C] font-bold">7:00 to 23:00</span>
+            </p>
+          </div>
+        </div>
+        <!-- right part -->
+        <div class="h-[40px] flex items-center gap-5">
+          <p>English <i class="ri-arrow-down-s-line"></i></p>
+          <p>USD <i class="ri-arrow-down-s-line"></i></p>
+          <p>Order Tracking</p>
+        </div>
+      </div>
+      <hr />
+      <!-- 3rd main bar -->
+      <div
+        class="w-[1360px] responsive2xl responsiveXl m-auto flex justify-between h-[80px] items-center"
+      >
+        <!-- logo -->
+        <div class="w-[120px]  max-2xl:w-[100px]">
+          <img class="w-full" src="../../assets/logo.png" alt="main-logo" />
+        </div>
+        <div
+          class="flex items-center justify-center gap-3 bg-[#F0EEF6] w-[130px] h-[46px] max-2xl:w-[110px] max-2xl:h-[38px] max-xl:w-[100px] max-xl:h-[35px] rounded-xl font-bold"
+        >
+          <i class="ri-menu-line"></i>
+          <h3 class="text-[#634C9F] max-2xl:text-[12px] max-xl:text-[11px]">
+            Categories
+          </h3>
+        </div>
+        <div class="w-[730px] max-2xl:w-[700px] max-xl:w-[550px] flex relative">
+          <input
+            class="w-full border bg-[#F3F4F6] h-[46px] max-2xl:h-[40px] max-xl:h-[35px] rounded-xl placeholder:pl-[20px] max-2xl:placeholder:text-[13px] max-xl:placeholder:text-[11px]"
+            type="text"
+            placeholder="Search for products, categories or brands..."
+          />
+          <i
+            class="ri-search-line text-[26px] max-2xl:text-[20px] max-xl:text-[18px] absolute right-2 top-1"
+          ></i>
+        </div>
+        <div class="flex gap-5">
+          <h4 class=""><i class="ri-user-3-line"></i> Account</h4>
+          <h4 class=""><i class="ri-heart-3-line"></i> Wishlist</h4>
+          <h4 class=""><i class="ri-shopping-cart-2-line"></i> Your Cart</h4>
+        </div>
+      </div>
+      <hr />
+      <!-- 4th nav bar -->
+      <div
+        class="w-[1360px] responsive2xl responsiveXl h-[50px] m-auto flex justify-between items-center text-[15px]"
+      >
+        <!-- left -->
+        <div class="">
+          <ul class="flex gap-5 font-bold">
+            <li>
+              <a href="../../index.html">Home <i class="ri-arrow-down-s-line"></i></a>
+            </li>
+            <li>
+              <a href="#">Shop <i class="ri-arrow-down-s-line"></i></a>
+            </li>
+            <li>
+              <a href="./src/Home 2 page/Home2.html">Fruits & Vegetables</a>
+            </li>
+            <li><a href="./src/Home 3 page/Home3.html">Beverages</a></li>
+            <li><a href="./src/Blog page/Home3.html">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <!-- right -->
+        <div>
+          <ul class="flex gap-5 font-bold">
+            <li>
+              <a href="#"
+                >Trending Products <i class="ri-arrow-down-s-line"></i
+              ></a>
+            </li>
+            <li class="text-[#DC2626]">
+              <a href="#"
+                >Almost Finished<span
+                  class="text-white text-[10px] px-[5px] py-[4px] bg-[#DC2626] mx-[5px] rounded-xl"
+                  >SALE</span
+                >
+                <i class="ri-arrow-down-s-line"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <hr />
+    <!-- Main Section -->
+    <main class="w-[1520px] h-[4068px] top-[209px] mx-auto">
+      <div
+        class="bg-hero-pattern bg-no-repeat bg-black text-white object-contain bg-cover w-[1380px] h-[600px] border-r-2 top-[24px] mx-auto mt-4"
+      >
+        <div class="pt-12 mx-14">
+          <div class="mb-5">
+            <span
+              class="text-[#166534] font-semibold bg-gradient-to-r from-[#16a34a78] w-[123px] py-[10px] pl-[10px] rounded-lg"
+              >Weekend
+            </span>
+            <span class="text-[#166534] font-semibold">Discount </span>
+          </div>
+          <h1 class="text-[#39245F] text-[58px] font-bold leading-[63px] mb-5">
+            Get the best quality <br />
+            products at the lowest <br />
+            price
+          </h1>
+          <p class="text-[16px] font-medium mb-5 text-black">
+            We have prepared special discounts for you on grocery products.
+            <br />
+            Don't miss these opportunities...
+          </p>
+          <div class="flex gap-5 py-6">
+            <button
+              class="bg-[#634C9F] text-white px-[40px] py-[12px] text-18px] font-bold rounded-xl"
+            >
+              Shop Now
+            </button>
+            <div>
+              <h3 class="text-[#DC2626] text-[28px] font-bold">
+                $21.67<span
+                  class="text-black text-[19px] font-semibold line-through"
+                  >$26.67</span
+                >
+              </h3>
+              <p class="text-[15px] text-[#7a7a7a]">
+                Don't miss this limited time offer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- info-section  -->
+      <div
+        class="mt-10 flex justify-around items-center w-[1360px] h-[ 379.38px] mx-auto"
+      >
+        <div class="flex object-contain bg-cover justify-center">
+          <img
+            class="flex flex-wrap mt-14 mr-2"
+            src="../../assets/SVG-1.png"
+            alt=""
+          />
+          <div
+            class="w-[200px] flex flex-col justify-center items-cente left-[ 280px]"
+          >
+            <h3 class="text-lg font-Inter font-bold">Payment only online</h3>
+            <p class="text-[12px] leading-4 text-[#6B7280] tracking-wide">
+              Tasigförsamhet beteendedesign. Mobile checkout. Ylig kärrtorpa.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex object-contain bg-cover justify-center">
+          <img
+            class="flex flex-wrap mt-14 mr-2"
+            src="../../assets/SVG-2.png"
+            alt=""
+          />
+          <div
+            class="w-[200px] flex flex-col justify-center items-cente left-[ 280px]"
+          >
+            <h3 class="text-lg font-Inter font-bold">New stocks and sales</h3>
+            <p class="text-[12px] leading-4 text-[#6B7280] tracking-wide">
+              Tasigförsamhet beteendedesign. Mobile checkout. Ylig kärrtorpa.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex object-contain bg-cover justify-center">
+          <img
+            class="flex flex-wrap mt-14 mr-2"
+            src="../../assets/SVG-3.png"
+            alt=""
+          />
+          <div
+            class="w-[200px] flex flex-col justify-center items-cente left-[ 280px]"
+          >
+            <h3 class="text-lg font-Inter font-bold">Quality assurance</h3>
+            <p class="text-[12px] leading-4 text-[#6B7280] tracking-wide">
+              Tasigförsamhet beteendedesign. Mobile checkout. Ylig kärrtorpa.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex object-contain bg-cover justify-center">
+          <img
+            class="flex flex-wrap mt-14 mr-2"
+            src="../../assets/SVG-4.png"
+            alt=""
+          />
+          <div
+            class="w-[200px] flex flex-col justify-center items-cente left-[ 280px]"
+          >
+            <h3 class="text-lg font-Inter font-bold">Delivery from 1 hour</h3>
+            <p class="text-[12px] leading-4 text-[#6B7280] tracking-wide">
+              Tasigförsamhet beteendedesign. Mobile checkout. Ylig kärrtorpa.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-10 mx-auto w-[ [433.33px] flex justify-center">
+        <img src="./assets/divider-separator.png" alt="" />
+      </div>
+
+      <!-- Banner-small-section  -->
+      <div class="banner-wrapper">
+        <div
+          class="border-r-2 l flex flex-row gap-10 w-[1360px] h-[ 379.38px] mx-auto"
+        >
+          <div
+            class="bg-card-1 object-contain bg-cover w-[433.33px] h-[220.41px] border-r-2 top-[686.86px] left-[280px] mx-auto"
+          >
+            <div class="pt-6 mx-4 w-[235.98px] h-[ 154.52px]">
+              <div class="mb-1">
+                <span
+                  class="text-[#EA580C] font-semibold bg-gradient-to-r w-[123px]"
+                  >Only This Week
+                </span>
+              </div>
+              <h1
+                class="text-[#111827] text-[22px] font-extrabold leading-[ 26.63px] mb-1"
+              >
+                Quality eggs at an <br />
+                affordable price
+              </h1>
+              <p class="text-[13px] font-semibold mb-5 text-[#6B7280] f">
+                Eat one every day
+              </p>
+              <div class="flex gap-5 py-2">
+                <button
+                  class="bg-[#FFFFFF] text-[#212529] w-[108.98px] h-[34px] text-[12px] font-bold rounded-full"
+                >
+                  Shop Now
+                </button>
+                <div></div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-card-2 object-contain bg-cover w-[433.33px] h-[220.41px] border-r-2 top-[686.86px] left-[280px]"
+          >
+            <div class="pt-6 mx-4 w-[235.98px] h-[ 154.52px]">
+              <div class="mb-1">
+                <span
+                  class="text-[#EA580C] font-semibold bg-gradient-to-r w-[123px]"
+                  >Only This Week
+                </span>
+              </div>
+              <h1
+                class="text-[#111827] text-[22px] font-extrabold leading-[ 26.63px] mb-1"
+              >
+                Snacks nourishes <br />
+                our mind and body
+              </h1>
+              <p class="text-[13px] font-semibold mb-5 text-[#6B7280] f">
+                Shine the morning..
+              </p>
+              <div class="flex gap-5 py-2">
+                <button
+                  class="bg-[#FFFFFF] text-[#212529] w-[108.98px] h-[34px] text-[12px] font-bold rounded-full"
+                >
+                  Shop Now
+                </button>
+                <div></div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-card-3 object-contain bg-cover w-[433.33px] h-[220.41px] border-r-2 top-[686.86px] left-[280px]"
+          >
+            <div class="pt-6 mx-4 w-[235.98px] h-[ 154.52px]">
+              <div class="mb-1">
+                <span
+                  class="text-[#EA580C] font-semibold bg-gradient-to-r w-[123px]"
+                  >Only This Week
+                </span>
+              </div>
+              <h1
+                class="text-[#111827] text-[22px] font-extrabold leading-[ 26.63px] mb-1"
+              >
+                Unbeatable quality, <br />
+                unbeatable prices.
+              </h1>
+              <p class="text-[13px] font-semibold mb-5 text-[#6B7280] f">
+                Only this week. Don’t miss...
+              </p>
+              <div class="flex gap-5 py-2">
+                <button
+                  class="bg-[#FFFFFF] text-[#212529] w-[108.98px] h-[34px] text-[12px] font-bold rounded-full"
+                >
+                  Shop Now
+                </button>
+                <div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Arrival section  -->
+      <div
+        class="flex items-center gap-3 -mb-5 w-[1360px] h-[ 379.38px] mx-auto mt-10"
+      >
+        <h2
+          class="text-[#030712] text-[18px] font-extrabold leading-[ 21.78px]"
+        >
+          New Arrivals
+        </h2>
+        <p class="text-[13px] leading-[15.73px] text-[#9CA3AF] items-center">
+          Dont miss this opportunity at a special discount just for this week.
+        </p>
+      </div>
+
+      <div
+        class="flex items-center gap-3 mb-5 w-[1360px] h-[379.38px] mx-auto mt-10 border-4 border-blue-300"
+      ></div>
+
+      <!-- Banner-large-section  -->
+      <div class="banner-wrapper">
+        <div
+          class="border-r-2 left-[280px] top-[ 987.27px] flex gap-10 justify-centre mx-auto mt-20 bg-cover w-[1360px] h-[ 379.38px]"
+        >
+          <div
+            class="bg-card-4 object-contain bg-cover w-full h-[397.23px] border-r-2 top-[1398.64px] left-[280px]"
+          >
+            <div class="pt-6 mx-4 w-[235.98px] h-[ 154.52px]">
+              <div class="mb-1">
+                <span
+                  class="text-[#EA580C] font-semibold bg-gradient-to-r w-[123px]"
+                  >Only This Week
+                </span>
+              </div>
+              <h1
+                class="text-[#111827] text-[22px] font-extrabold leading-[ 26.63px] mb-1"
+              >
+                Quality eggs at an <br />
+                affordable price
+              </h1>
+              <p class="text-[13px] font-semibold mb-5 text-[#6B7280]">
+                Eat one every day
+              </p>
+              <div class="flex gap-5 py-2">
+                <button
+                  class="bg-[#FFFFFF] text-[#212529] w-[108.98px] h-[34px] text-[12px] font-bold rounded-full -my-4"
+                >
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-card-5 object-contain bg-cover w-full h-[397.23px] border-r-2 top-[1398.64px] left-[280px]"
+          >
+            <div
+              class="pt-6 mx-4 w-[277.5px] h-[150.52px] top-[20px] left-[20px]"
+            >
+              <div class="mb-1">
+                <span
+                  class="text-[#EA580C] font-semibold bg-gradient-to-r w-[123px]"
+                  >Only This Week
+                </span>
+              </div>
+              <h1 class="text-[#111827] text-[22px] font-extrabold mb-1">
+                Shopping with us for better quality best price
+              </h1>
+              <p class="text-[13px] font-semibold mb-5 text-[#6B7280]">
+                Eat one every day
+              </p>
+              <div class="flex gap-5 py-2">
+                <button
+                  class="bg-[#FFFFFF] text-[#212529] w-[108.98px] h-[34px] text-[12px] font-bold rounded-full -my-4"
+                >
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-card-6 object-contain bg-cover w-full h-[397.23px] border-r-2 top-[ 1398.64px] left-[280px]"
+          >
+            <div class="pt-6 mx-4 w-[235.98px] h-[ 154.52px]">
+              <div class="mb-1">
+                <span
+                  class="text-[#EA580C] font-semibold bg-gradient-to-r w-[123px]"
+                  >Only This Week
+                </span>
+              </div>
+              <h1
+                class="text-[#111827] text-[22px] font-extrabold leading-[ 26.63px] mb-1"
+              >
+                Quality eggs at an <br />
+                affordable price
+              </h1>
+              <p class="text-[13px] font-semibold mb-5 text-[#6B7280]">
+                Eat one every day
+              </p>
+              <div class="flex gap-5 py-2">
+                <button
+                  class="bg-[#FFFFFF] text-[#212529] w-[108.98px] h-[34px] text-[12px] font-bold rounded-full -my-4"
+                >
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-card-7 object-contain bg-cover w-full h-[397.23px] border-r-2 top-[ 1398.64px] left-[280px]"
+          >
+            <div class="pt-6 mx-4 w-[235.98px] h-[ 154.52px]">
+              <div class="mb-1">
+                <span
+                  class="text-[#EA580C] font-semibold bg-gradient-to-r w-[123px]"
+                  >Only This Week
+                </span>
+              </div>
+              <h1
+                class="text-[#111827] text-[22px] font-extrabold leading-[ 26.63px] mb-1"
+              >
+                Quality eggs at an <br />
+                affordable price
+              </h1>
+              <p class="text-[13px] font-semibold mb-5 text-[#6B7280]">
+                Eat one every day
+              </p>
+              <div class="flex gap-5 py-2">
+                <button
+                  class="bg-[#FFFFFF] text-[#212529] w-[108.98px] h-[34px] text-[12px] font-bold rounded-full -my-4"
+                >
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

@@ -2,9 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-.responsive2xl {
-      @apply max-2xl:w-[1200px] max-2xl:text-[11px]
-}
-.responsiveXl {
-      @apply max-xl:w-[1000px] max-2xl:text-[10px]
-}
+
