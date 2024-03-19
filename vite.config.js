@@ -8,7 +8,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         Home2: resolve(__dirname, './src/Home 2 page/Home2.html'),
-        Home3: resolve(__dirname, './src/Home 3 page/Home2.html'),
+        Home3: resolve(__dirname, './src/Home 3 page/Home3.html'),
       },
     },
   },
