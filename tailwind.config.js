@@ -4,6 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage:{
+
+        'hero-pattern': "url('./assets home3/slider-03.jpg.png')",
         'hero-pattern2': "url('./assets/main.png')",
 
         // 'logo': "url('./assets/logo.png')",
@@ -26,6 +28,7 @@ module.exports = {
         'card-7': "url('./assets/Banner-lg-4.jpeg')",
        
         
+
         
       },
       fontFamily:{
