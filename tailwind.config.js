@@ -7,7 +7,7 @@ module.exports = {
 
         'hero-pattern': "url('./assets home3/slider-03.jpg.png')",
         'hero-pattern2': "url('./assets/main.png')",
-
+        'filter-hero':"url('./assets home3/filter/banner-33.jpg.png')",
         // 'logo': "url('./assets/logo.png')",
 
 
