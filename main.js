@@ -1,6 +1,6 @@
 // GSAP Section 
 gsap.from("#bubble",{
-    y:30,
+    y:10,
     duration:1,
     yoyo:true,
     repeat:-1
@@ -26,12 +26,12 @@ bubble.addEventListener("click",()=>{
     })
     if(cardVisible){
         gsap.to("#cards",{
-            x:300
+            x:"15vw"
         })
         cardVisible = false
     }else{
         gsap.to("#cards",{
-            x:-300
+            x:"-15vw",
         })
         cardVisible = true
     }
