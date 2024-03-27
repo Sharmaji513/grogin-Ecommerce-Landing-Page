@@ -10,7 +10,8 @@ module.exports = {
         'filter-hero':"url('./assets home3/filter/banner-33.jpg.png')",
         // 'logo': "url('./assets/logo.png')",
 
-
+        
+        'demo-banner': "url('./assets/banner-04.jpg.png')",
         'hero-pattern': "url('./assets/bannerLarge.png')",
         'bubble': "url('./assets/contriburtion.jpg')",
 

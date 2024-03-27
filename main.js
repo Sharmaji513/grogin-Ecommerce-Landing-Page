@@ -12,10 +12,15 @@ const bubble = document.getElementById("bubble")
 const bubbleInfo = document.getElementById("bubble-info")
 
 const searchBtn = document.getElementById("search")
+const products = document.getElementById("products")
 
 searchBtn.addEventListener("click",()=>{
     window.location.href = "./src/Filter Product page/SearchProduct.html"
 })
+products.addEventListener("click",()=>{
+    window.location.href = "./src/Details Page/details.html"
+})
+
 
 
 let cardVisible = false;
