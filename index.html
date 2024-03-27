@@ -11,75 +11,101 @@
     <!-- Font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;320;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Int15vw]er:wght@100;200;320;400;500;600;700;800;900&display=swap" rel="stylesheet">
     
 </head>
-<body class="w-[1024px] h-[100vh] m-auto box-border font-Inter">
+<body class="max-w-[100vw] h-[100vh] m-auto box-border-[0.12vw] font-Inter">
+    <!-- contribution bubble -->
+    <div id="bubble" class="bg-white h-[4vw] w-[4vw] fixed right-[4vw] bottom-[4vw] rounded-[2vw] z-10">
+        <div class="bg-bubble bg-no-repeat bg-contain h-[4vw] w-[4vw] rounded-[2vw]  border-[0.2vw] border-[#8a8a8a]">
+            <h3 class="text-[0.54vw] relative top-[2vw] left-[0.15vw] font-extrabold">Contribution</h3>
+        </div>
+    </div>
+    <!-- bubble information -->
+    <div id="bubble-info" class="w-[10vw] h-[25vw] fixed right-[-12vw] bottom-[10vw] z-0">
+        <div id="cards" class="flex flex-col items-center">
+            <div class="w-[12vw] h-[8vw] bg-gray-100 rounded-[1vw] shadow-md mb-[1vw] p-[1vw]">
+            <h3 class="text-gray-800 text-[1vw] font-semibold mb-[1vw]">Aditya : <span class="text-[0.8vw]">Contributions</span></h3>
+            <p class="text-[#227736] font-extrabold text-[0.8vw]">2 pages</p>
+            </div>
+
+            <div class="w-[12vw] h-[8vw] bg-gray-100 rounded-[1vw] shadow-md mb-[1vw] p-[1vw]">
+            <h3 class="text-gray-800 text-[1vw] font-semibold mb-[1vw]">Sachin : <span class="text-[0.8vw]">Contributions</span></h3>
+            <p class="text-[#227736] font-extrabold text-[0.8vw]">2 pages</p>
+            </div>
+
+            <div class="w-[12vw] h-[8vw] bg-gray-100 rounded-[1vw] shadow-md mb-[1vw] p-[1vw]">
+            <h3 class="text-gray-800 text-[1vw] font-semibold mb-[1vw]">Akash : <span class="text-[0.8vw]">Contributions</span></h3>
+            <p class="text-[#227736] font-extrabold text-[0.8vw]">2 pages</p>
+            </div>
+        </div>
+    </div>
+
     <!-- Header section  -->
-    <header class="-w-[1024px] m-auto">
-        <div class="w-[1024px] m-auto h-[40px] bg-[#634C9F] text-white">
+    <header class="max-w-[100vw] m-auto">
+        <div class="max-w-[100vw] m-auto h-[2vw] bg-[#634C9F] text-white">
                    <!-- 1st bar -->
-            <div class="h-full px-[20px] flex justify-between items-center w-[1024px] m-auto text-[11px]">
+            <div class="h-full px-[1vw] flex justify-between items-center max-w-[100vw] m-auto text-[0.7vw]">
                 <!-- left -->
                 <div class="">
                     <h4>FREE delivery & 40% Discount for next 3 orders! Place your 1st order in.</h4>
                 </div>
                 <!-- right -->
-                <div class="text-[#ccc] relative">
-                    <h4 class="flex h-full items-center gap-10">Until the end of the sale: 
-                                                <span id="day" class="text-white text-[11px] font-semibold">47</span>days
-                                                <span id="hr" class="text-white text-[11px] font-semibold">06</span>hours
-                                                <span id="min" class="text-white text-[11px] font-semibold">57</span>minute
-                                                <span id="sec" class="text-white text-[11px] font-semibold">08</span>sec
+                <div class="text-[#ccc] relative right-[10vw]">
+                    <h4 class="flex h-full items-center gap-[2vw]">Until the end of the sale: 
+                                                <span id="day" class="text-white text-[0.8vw] font-semibold">47</span>days
+                                                <span id="hr" class="text-white text-[0.8vw] font-semibold">06</span>hours
+                                                <span id="min" class="text-white text-[0.8vw] font-semibold">57</span>minute
+                                                <span id="sec" class="text-white text-[0.8vw] font-semibold">08</span>sec
                     </h4>
                 </div>
             </div>
         </div>
-        <hr>
+        <hr class="border-[0.12vw]-[#f0f0f0] border-[0.12vw]-[0.011vw]">
         <!-- 2nd bar -->
-        <div class="w-[1024px] px-[20px] m-auto flex justify-between text-[11px]">
+        <div class="max-w-[100vw] px-[1vw] m-auto flex justify-between text-[0.7vw]">
             <!-- left part -->
-            <div class="h-[40px] flex items-center gap-5 ">
+            <div class="h-[2vw] flex items-center gap-[1.5vw] ">
                 <div class=""><a href="">About Us</a></div>
                 <div class=""><a href="#">My account</a></div>
                 <div class=""><a href="#">Wishlist</a></div>
-                <div class="bg-[#ccc] h-[12px] w-[1px]"></div>
+                <div class="bg-[#ccc] h-[1vw] w-[0.011vw]"></div>
                 <div class=""><p>We deliver to you every day from: <span class="text-[#EA580C] font-bold">7:00 to 23:00</span></p></div>
             </div>
             <!-- right part -->
-            <div class="h-[40px] flex items-center gap-5  ">
+            <div class="h-[2vw] flex items-center gap-[1.5vw]  ">
                 <p>English <i class="ri-arrow-down-s-line"></i></p>
                 <p>USD <i class="ri-arrow-down-s-line"></i></p>
                 <p>Order Tracking</p>
             </div>
         </div>
-        <hr>
+        <hr class="border-[0.12vw]-[#f0f0f0] border-[0.12vw]-[0.011vw]">
         <!-- 3rd main bar -->
-        <div class="w-[1024px] px-[20px] m-auto flex justify-between h-[80px] items-center text-[11px]">
+        <div class="max-w-[100vw] px-[1vw] m-auto flex justify-between h-[3.5vw] items-center text-[0.7vw]">
             <!-- logo -->
-            <div class="w-[100px] ">
-                <img class="w-full" src="./assets/logo.png" alt="main-logo">
+            <div class="w-[6vw] ">
+                <img class="w-[9vw]" src="./assets/logo.png" alt="main-logo">
             </div>
-            <div class="flex items-center justify-center gap-3 bg-[#F0EEF6] w-[120px] h-[45px] rounded-xl font-bold">
+            <div class="flex items-center justify-center gap-[1vw] bg-[#F0EEF6] w-[8vw] h-[2.4vw] rounded-xl font-bold">
                 <i class="ri-menu-line"></i>
-                <h3 class="text-[#634C9F]">Categories</h3>
+                <h3 class="text-[#634C9F] text-[0.8vw]">Categories</h3>
             </div>
-            <div class="w-[500px]  flex relative">
-                <input class="w-full border bg-[#F3F4F6] h-[46px] rounded-xl placeholder:pl-[20px] " type="text" placeholder="Search for products, categories or brands...">
-                <button id="search"><i class="ri-search-line text-[26px]  absolute right-2 top-1"></i></button>
+            <div class="w-[60vw]  flex relative">
+                <input class="w-[60vw] border-[0.12vw] bg-[#F3F4F6] h-[2.4vw] text-[0.8vw] rounded-xl placeholder:pl-[1vw] " type="text" placeholder="Search for products, categories or brands...">
+                <button id="search"><i class="ri-search-line text-[1.5vw]  absolute right-[0.6vw] top-[0.1vw]"></i></button>
             </div>
-            <div class="flex gap-5">
-                <h4 class=""><i class="ri-user-3-line"></i> Account</h4>
-                <h4 class=""><i class="ri-heart-3-line"></i> Wishlist</h4>
-                <h4 class=""><i class="ri-shopping-cart-2-line"></i> Your Cart</h4>
+            <div class="flex gap-[2vw] items-center">
+                <h4 class=""><i class="text-[1vw] ri-user-3-line"></i> Account</h4>
+                <h4 class=""><i class="text-[1vw] ri-heart-3-line"></i> Wishlist</h4>
+                <h4 class=""><i class="text-[1vw] ri-shopping-cart-2-line"></i> Your Cart</h4>
             </div>
         </div>
-        <hr>
+        <hr class="border-[0.12vw]-[#f0f0f0] border-[0.12vw]-[0.011vw]">
         <!-- 4th nav bar -->
-        <div class="w-[1024px] h-[50px] px-[20px] m-auto flex justify-between items-center text-[15px]">
+        <div class="max-w-[100vw] h-[2.2vw] px-[1vw] m-auto flex justify-between items-center text-[0.8vw]">
             <!-- left -->
             <div class="">
-                <ul class="flex gap-5 font-bold">
+                <ul class="flex gap-[1.5vw] font-bold">
                     <li><a href="#">Home <i class="ri-arrow-down-s-line"></i></a></li>
                     <li><a href="#">Shop <i class="ri-arrow-down-s-line"></i></a></li>
                     <li><a href="./src/Home 2 page/Home2.html">Fruits & Vegetables</a></li>
@@ -90,62 +116,60 @@
             </div>
             <!-- right -->
             <div>
-                <ul class="flex gap-5 font-bold">
+                <ul class="flex gap-[1.5vw] font-bold">
                     <li><a href="#">Trending Products <i class="ri-arrow-down-s-line"></i></a></li>
-                    <li class="text-[#DC2626]"><a href="#">Almost Finished<span class="text-white text-[11px] px-[5px] py-[4px] bg-[#DC2626] mx-[5px] rounded-xl">SALE</span> <i class="ri-arrow-down-s-line"></i></a></li>
+                    <li class="text-[#DC2626]"><a href="#">Almost Finished<span class="text-white text-[0.8vw] px-[0.6vw] py-[0.4vw] bg-[#DC2626] mx-[0.5vw] rounded-[1vw]">SALE</span> <i class="ri-arrow-down-s-line"></i></a></li>
                 </ul>
             </div>
         </div>
         <hr>
     </header>
     <!-- Main Section -->
-    <main class="bg-hero-pattern2  bg-no-repeat bg-cover bg-[-250px] w-[1024px] h-[500px]  m-auto flex items-center">
-        <div class="w-[1024px] m-auto p-[50px]">
-            <div class="mb-5">
-                <span class="text-[#166534] font-semibold bg-gradient-to-r from-[#16a34a78] w-[123px] py-[10px] pl-[10px] rounded-lg">Weekend </span>
+    <main class="bg-hero-pattern2  bg-no-repeat bg-cover max-w-[100vw] h-[35vw]  m-auto flex items-center text-[1vw]">
+        <div class="w-[90vw] m-auto">
+            <div class="mb-[1vw]">
+                <span class="text-[#166534] font-semibold  from-[#16a34a78] w-[5vw] py-[0.6vw] pl-[0.5vw] rounded-lg">Weekend </span>
                 <span class="text-[#166534] font-semibold">Discount </span>
             </div>
-            <h1 class="text-[#39245F] text-[40px] font-bold leading-[43px]  mb-5" >
+            <h1 class="text-[#39245F] text-[3vw] font-bold leading-[3.5vw] mb-[1vw]" >
                 Shopping with us for <br>
                 better quality and the <br>
                 best price
             </h1>
-            <p class="text-[12px] font-medium mb-5">We have prepared special discounts for you on grocery products. <br>
+            <p class="text-[0.8vw] font-medium mb-[2vw]">We have prepared special discounts for you on grocery products. <br>
                 Don't miss these opportunities...</p>
-            <div class="flex gap-5">
-                <button class="bg-[#634C9F] text-white px-[30px] text-[15px] font-bold rounded-xl">Shop Now</button>
+            <div class="flex gap-[1vw]">
+                <button class="bg-[#634C9F] text-white px-[2vw] text-[0.8vw] font-bold rounded-[1vw]">Shop Now</button>
                 <div>
-                    <h3 class="text-[#DC2626] text-[20px] font-bold">$21.67<span class="text-black text-[15px] font-semibold line-through">$26.67</span></h3>
-                    <p class="text-[11px] text-[#7a7a7a]">Don't miss this limited time offer.</p>
+                    <h3 class="text-[#DC2626] text-[1.5vw] font-bold">$21.67<span class="text-black text-[1vw] font-semibold line-through">$26.67</span></h3>
+                    <p class="text-[0.8vw] text-[#7a7a7a]">Don't miss this limited time offer.</p>
                 </div>
             </div>
         </div>
     </main>
     <!-- Banner-small-section  -->
-    <div class="banner-wrapper my-[50px]">
-        <div class="border-r-2 l flex flex-row gap-5 w-[1024px] h-[ 379.38px] mx-auto">
+    <div class="banner-wrapper mt-[2vw] p-[1vw]">
+        <div class=" flex gap-[1vw] max-w-[100vw] h-[15vw] justify-evenly">
           <!-- card 1 -->
-          <div
-            class="bg-card-1 object-contain bg-cover w-[400px] h-[180px] border-r-2  mx-auto"
-          >
-            <div class="pt-6 mx-4 w-[235.98px] h-[ 154.52px]">
-              <div class="mb-1">
-                <span
-                  class="text-[#EA580C] text-[14px] font-semibold bg-gradient-to-r w-[123px]"
-                  >Only This Week
-                </span>
+          <div class="bg-card-1 object-contain bg-cover w-[32vw] h-[15vw] pt-[1.5vw]">
+            
+            <div class="pt-[0.5vw] mx-[1vw] w-[16vw] h-[14vw]">
+              <div class="mb-[0.5vw]">
+                <p  class="text-[#EA580C] text-[1.2vw] font-semibold ">
+                    <span>Only This Week</span>
+                </p>
               </div>
               <h1
-                class="text-[#111827] text-[18px] leading-6 font-extrabold leading-[ 26.63px] mb-1"
+                class="text-[#111827] text-[1.5vw] font-extrabold leading-[2vw] mb-[0.5vw]"
               >
                 Quality eggs at an <br />
                 affordable price
               </h1>
-              <p class="text-[13px] font-semibold mb-3 text-[#6B7280] f">
+              <p class="text-[0.8vw] font-semibold mb-[1vw] text-[#6B7280] f">
                 Eat one every day
               </p>
-              <div class="flex gap-5 ">
-                <button class="bg-[#FFFFFF] text-[#212529] w-[108.98px] h-[34px] text-[11px] font-bold rounded-full">
+              <div class="flex gap-[1vw] ">
+                <button class="bg-[#FFFFFF] text-[#212529] w-[8vw] h-[2.2vw] text-[0.8vw] font-bold rounded-full">
                   Shop Now
                 </button>
                 <div></div>
@@ -153,22 +177,23 @@
             </div>
           </div>
           <!-- card 2 -->
-          <div class="bg-card-2 object-contain bg-cover w-[400px] h-[180px] border-r-2">
-            <div class="pt-6 mx-4 w-[235.98px] h-[ 154.52px]">
-              <div class="mb-1">
-                <span class="text-[#EA580C] font-semibold bg-gradient-to-r w-[123px] text-[14px]">Only This Week
-                </span>
+          <div class="bg-card-2 object-contain bg-cover w-[32vw] h-[15vw] pt-[1.5vw]">
+            <div class="pt-[0.5vw] mx-[1vw] w-[16vw] h-[6vw]">
+              <div class="mb-[0.5vw]">
+                <p  class="text-[#EA580C] text-[1.2vw] font-semibold ">
+                    <span>Only This Week</span>
+                </p>
               </div>
-              <h1 class="text-[#111827] text-[18px] leading-6 font-extrabold  mb-1">
+              <h1 class="text-[#111827] text-[1.5vw]  font-extrabold leading-[2vw] mb-[0.5vw]">
                 Snacks nourishes <br />
                 our mind and body
               </h1>
-              <p class="text-[13px] font-semibold mb-3 text-[#6B7280] ">
+              <p class="text-[0.8vw] font-semibold mb-[1vw] text-[#6B7280] ">
                 Shine the morning..
               </p>
-              <div class="flex gap-5 ">
+              <div class="flex gap-[1vw] ">
                 <button
-                  class="bg-[#FFFFFF] text-[#212529] w-[108.98px] h-[34px] text-[11px] font-bold rounded-full"
+                  class="bg-[#FFFFFF] text-[#212529] w-[8vw] h-[2.2vw] text-[0.8vw] font-bold rounded-full"
                 >
                   Shop Now
                 </button>
@@ -177,25 +202,22 @@
             </div>
           </div>
           <!-- card 3 -->
-          <div
-            class="bg-card-3 object-contain bg-cover w-[400px] h-[180px] border-r-2 "
-          >
-            <div class="pt-6 mx-4 w-[235.98px] h-[ 154.52px]">
-              <div class="mb-1">
-                <span
-                  class="text-[#EA580C] font-semibold bg-gradient-to-r w-[123px] text-[14px]"
-                  >Only This Week
-                </span>
+          <div class="bg-card-3 object-contain bg-cover w-[32vw] h-[15vw] pt-[1.5vw] ">
+            <div class="pt-[0.5vw] mx-[1vw] w-[16vw] h-[ 6vw]">
+              <div class="mb-[0.5vw]">
+                <p  class="text-[#EA580C] text-[1.2vw] font-semibold ">
+                    <span>Only This Week</span>
+                </p>
               </div>
-              <h1 class="text-[#111827] text-[18px] leading-6 font-extrabold ">
+              <h1 class="text-[#111827] text-[1.5vw] leading-[2vw] font-extrabold ">
                 Unbeatable quality, <br />
                 unbeatable prices.
               </h1>
-              <p class="text-[13px] font-semibold mb-3 text-[#6B7280] f">
+              <p class="text-[0.8vw] font-semibold mb-[1vw] text-[#6B7280] f">
                 Only this week. Don’t miss...
               </p>
-              <div class="flex gap-5 ">
-                <button class="bg-[#FFFFFF] text-[#212529] w-[108.98px] h-[34px] text-[11px] font-bold rounded-full">
+              <div class="flex gap-[1vw] ">
+                <button class="bg-[#FFFFFF] text-[#212529] w-[8vw] h-[2.2vw] text-[0.8vw] font-bold rounded-full">
                   Shop Now
                 </button>
                 <div></div>
@@ -205,242 +227,309 @@
         </div>
       </div>
     <!-- Product section -->
-    <section class="products w-[1024px] m-auto">
-        <div class=" w-[1024px] m-auto box-border flex gap-[16px]">
-          <div>
-              <!-- Card 1 -->
-              <div class="w-[330px] h-[250px] shadow-xl border rounded-s mt-[20px] p-[15px]">
-                  <div class="card flex ">
-                      <!-- left side -->
-                      <div class="relative h-[100px] w-[160px] m-[15px] ">
-                          <img class="w-full" src="./assets home3/products/Link → 1-2-500x500.jpg.png" alt="products">
-                          <img class="w-[60px] absolute -bottom-4 -left-4" src="./assets home3/products/span.badge.png" alt="badge">
-                          <div class="bg-[#DC2626] h-[25px] w-[30px] rounded-2xl absolute top-0 -left-3 text-center">
-                              <span class="text-[11px] text-white">75%</span>
-                          </div>
-                          <img class="absolute bottom-0 right-0 w-[20px]" src="./assets home3/products/Link.png" alt="link">
-                      </div>
-                      <!-- right side -->
-                      <div class="m-[15px]">
-                          <h3 class="text-[12px] font-semibold">100 Percent Apple Juice – 64
-                              fl oz Bottle</h3>
-                              <div class="flex mt-[5px] items-center">
-                                  <img src="./assets home3/products/Vector (1).png" alt="">
-                                  <img src="./assets home3/products/Vector (1).png" alt="">
-                                  <img src="./assets home3/products/Vector (1).png" alt="">
-                                  <img src="./assets home3/products/Vector (1).png" alt="">
-                                  <img src="./assets home3/products/Vector.png" alt=""> 
-                                  <span class="text-[11px] mx-[5px]">3</span>
-                              </div>
-                              <h4 class="text-red-500 text-[20px] font-bold">$0.50 <span class="text-black text-[15px] line-through">$1.99</span></h4>
-                              <button class="flex items-center justify-between w-full border border-[#634C9F] text-[#634C9F] rounded-2xl p-[3px] mt-[10px] text-[15px] pl-[20px]">Add to Cart <img src="./assets home3/products/Icon.png" alt="plus"></button>
-                      </div>
-                  </div>
-                  <div class="flex items-start gap-[5px] p-[15px] ">
-                      <div class="bg-[#eaeaeb] h-[20px] w-[26px] rounded-lg text-center text-[12px]">85</div>
-                      <div class="bg-[#eaeaeb] h-[20px] w-[26px] rounded-lg text-center text-[12px]">06</div>
-                      <div class="bg-[#eaeaeb] h-[20px] w-[26px] rounded-lg text-center text-[12px]">57</div>
-                      <div class=" h-[26px]  text-[12px]">:</div>
-                      <div class="bg-[#eaeaeb] h-[20px] w-[26px] rounded-lg text-center text-[12px]">08</div>
-                      <span class="text-[10px] ml-[15px] text-[#ccc]">Remains until the end of the offer</span>
-                  </div>
-              </div>
-              <!-- Card 2 -->
-              <div class="w-[330px] h-[250px] shadow-xl border rounded-s mt-[20px] p-[15px]">
+    <section class="products max-w-[100vw] m-auto"> 
+        <div class=" max-w-[100vw] box-border-[0.12vw] grid grid-cols-4 gap-[1vw] p-[1.5vw]">
+          
+            <!-- Card 1 -->
+            <div class="w-[23vw] h-[15vw]  border-[0.12vw] rounded-[0.5vw] mt-[1vw] p-[1vw]">
                 <div class="card flex ">
                     <!-- left side -->
-                    <div class="relative h-[100px] w-[160px] m-[15px] ">
+                    <div class="relative h-[7.5vw] w-[12vw] m-[1vw] ">
                         <img class="w-full" src="./assets home3/products/Link → 1-2-500x500.jpg.png" alt="products">
-                        <img class="w-[60px] absolute -bottom-4 -left-4" src="./assets home3/products/span.badge.png" alt="badge">
-                        <div class="bg-[#DC2626] h-[25px] w-[30px] rounded-2xl absolute top-0 -left-3 text-center">
-                            <span class="text-[11px] text-white">75%</span>
+                        <img class="w-[4vw] absolute bottom-[0vw] -left-[1vw]" src="./assets home3/products/span.badge.png" alt="badge">
+                        <div class="bg-[#DC2626] h-[1.5vw] w-[2vw] rounded-[1.5vw] absolute top-[0vw] -left-[1vw] flex items-center justify-center">
+                            <p class="text-[0.6vw] text-white"><span >75%</span></p>
                         </div>
-                        <img class="absolute bottom-0 right-0 w-[20px]" src="./assets home3/products/Link.png" alt="link">
+                        <img class="absolute bottom-[0vw] right-[0vw] w-[1vw]" src="./assets home3/products/Link.png" alt="link">
                     </div>
                     <!-- right side -->
-                    <div class="m-[15px]">
-                        <h3 class="text-[12px] font-semibold">100 Percent Apple Juice – 64
+                    <div class="m-[1vw]">
+                        <h3 class="text-[1vw] font-semibold">100 Percent Apple Juice – 64
                             fl oz Bottle</h3>
-                            <div class="flex mt-[5px] items-center">
-                                <img src="./assets home3/products/Vector (1).png" alt="">
-                                <img src="./assets home3/products/Vector (1).png" alt="">
-                                <img src="./assets home3/products/Vector (1).png" alt="">
-                                <img src="./assets home3/products/Vector (1).png" alt="">
-                                <img src="./assets home3/products/Vector.png" alt=""> 
-                                <span class="text-[11px] mx-[5px]">3</span>
+                            <div class="flex my-[0.2vw] items-center">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector.png" alt=""> 
+                                <span class="text-[0.8vw] mx-[0.5vw]">3</span>
                             </div>
-                            <h4 class="text-red-500 text-[20px] font-bold">$0.50 <span class="text-black text-[15px] line-through">$1.99</span></h4>
-                            <button class="flex items-center justify-between w-full border border-[#634C9F] text-[#634C9F] rounded-2xl p-[3px] mt-[10px] text-[15px] pl-[20px]">Add to Cart <img src="./assets home3/products/Icon.png" alt="plus"></button>
+                            <h4 class="text-red-500 text-[1vw] font-bold">$0.50 <span class="text-black text-[0.6vw] line-through">$1.99</span></h4>
+                            <button class="flex items-center justify-between w-[9vw] border-[0.12vw] border-[0.12vw]-[#634C9F] text-[#634C9F] rounded-[1.5vw] p-[0.2vw] mt-[1vw] text-[1vw] pl-[1vw]">Add to Cart <img class="w-[1vw]" src="./assets home3/products/Icon.png" alt="plus"></button>
                     </div>
                 </div>
-                <div class="flex items-start gap-[5px] p-[15px] ">
-                    <div class="bg-[#eaeaeb] h-[20px] w-[26px] rounded-lg text-center text-[12px]">85</div>
-                    <div class="bg-[#eaeaeb] h-[20px] w-[26px] rounded-lg text-center text-[12px]">06</div>
-                    <div class="bg-[#eaeaeb] h-[20px] w-[26px] rounded-lg text-center text-[12px]">57</div>
-                    <div class=" h-[26px]  text-[12px]">:</div>
-                    <div class="bg-[#eaeaeb] h-[20px] w-[26px] rounded-lg text-center text-[12px]">08</div>
-                    <span class="text-[10px] ml-[15px] text-[#ccc]">Remains until the end of the offer</span>
+                <div class="flex items-start gap-[0.5vw] p-[0.5vw] ">
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">85</div>
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">06</div>
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">57</div>
+                    <div class=" h-[1.8vw]  text-[1vw]">:</div>
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">08</div>
+                    <span class="text-[0.6vw] ml-[0.5vw] text-[#ccc]">Remains until the end of the offer</span>
                 </div>
-              </div>
-          </div>
-
-          <div>
-              <!-- Card 3 -->
-              <div class="w-[330px] h-[250px] shadow-xl border rounded-s mt-[20px] p-[15px]">
+            </div>
+            <!-- Card 2 -->
+            <div class="w-[23vw] h-[15vw]  border-[0.12vw] rounded-[0.5vw] mt-[1vw] p-[1vw]">
                 <div class="card flex ">
                     <!-- left side -->
-                    <div class="relative h-[100px] w-[160px] m-[15px] ">
-                        <img class="w-full" src="./assets home3/products/Link → 1-2-500x500.jpg.png" alt="products">
-                        <img class="w-[60px] absolute -bottom-4 -left-4" src="./assets home3/products/span.badge.png" alt="badge">
-                        <div class="bg-[#DC2626] h-[25px] w-[30px] rounded-2xl absolute top-0 -left-3 text-center">
-                            <span class="text-[11px] text-white">75%</span>
+                    <div class="relative h-[7.5vw] w-[12vw] m-[1vw] ">
+                        <img class="w-full" src="./assets/Products images/p1.png" alt="products">
+                        <img class="w-[4vw] absolute bottom-[0vw] -left-[1vw]" src="./assets home3/products/span.badge.png" alt="badge">
+                        <div class="bg-[#DC2626] h-[1.5vw] w-[2vw] rounded-[1.5vw] absolute top-[0vw] -left-[1vw] flex items-center justify-center">
+                            <p class="text-[0.6vw] text-white"><span >75%</span></p>
                         </div>
-                        <img class="absolute bottom-0 right-0 w-[20px]" src="./assets home3/products/Link.png" alt="link">
+                        <img class="absolute bottom-[0vw] right-[0vw] w-[1vw]" src="./assets home3/products/Link.png" alt="link">
                     </div>
                     <!-- right side -->
-                    <div class="m-[15px]">
-                        <h3 class="text-[12px] font-semibold">100 Percent Apple Juice – 64
-                            fl oz Bottle</h3>
-                            <div class="flex mt-[5px] items-center">
-                                <img src="./assets home3/products/Vector (1).png" alt="">
-                                <img src="./assets home3/products/Vector (1).png" alt="">
-                                <img src="./assets home3/products/Vector (1).png" alt="">
-                                <img src="./assets home3/products/Vector (1).png" alt="">
-                                <img src="./assets home3/products/Vector.png" alt=""> 
-                                <span class="text-[11px] mx-[5px]">3</span>
+                    <div class="m-[1vw]">
+                        <h3 class="text-[1vw] font-semibold">Great Value Rising Crust
+                            Frozen Pizza, Supreme</h3>
+                            <div class="flex my-[0.2vw] items-center">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector.png" alt=""> 
+                                <span class="text-[0.8vw] mx-[0.5vw]">3</span>
                             </div>
-                            <h4 class="text-red-500 text-[20px] font-bold">$0.50 <span class="text-black text-[15px] line-through">$1.99</span></h4>
-                            <button class="flex items-center justify-between w-full border border-[#634C9F] text-[#634C9F] rounded-2xl p-[3px] mt-[10px] text-[15px] pl-[20px]">Add to Cart <img src="./assets home3/products/Icon.png" alt="plus"></button>
+                            <h4 class="text-red-500 text-[1vw] font-bold">$0.50 <span class="text-black text-[0.6vw] line-through">$1.99</span></h4>
+                            <button class="flex items-center justify-between w-[9vw] border-[0.12vw] border-[0.12vw]-[#634C9F] text-[#634C9F] rounded-[1.5vw] p-[0.2vw] mt-[1vw] text-[1vw] pl-[1vw]">Add to Cart <img class="w-[1vw]" src="./assets home3/products/Icon.png" alt="plus"></button>
                     </div>
                 </div>
-                <div class="flex items-start gap-[5px] p-[15px] ">
-                    <div class="bg-[#eaeaeb] h-[20px] w-[26px] rounded-lg text-center text-[12px]">85</div>
-                    <div class="bg-[#eaeaeb] h-[20px] w-[26px] rounded-lg text-center text-[12px]">06</div>
-                    <div class="bg-[#eaeaeb] h-[20px] w-[26px] rounded-lg text-center text-[12px]">57</div>
-                    <div class=" h-[26px]  text-[12px]">:</div>
-                    <div class="bg-[#eaeaeb] h-[20px] w-[26px] rounded-lg text-center text-[12px]">08</div>
-                    <span class="text-[10px] ml-[15px] text-[#ccc]">Remains until the end of the offer</span>
+                <div class="flex items-start gap-[0.5vw] p-[0.5vw] ">
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">85</div>
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">06</div>
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">57</div>
+                    <div class=" h-[1.8vw]  text-[1vw]">:</div>
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">08</div>
+                    <span class="text-[0.6vw] ml-[0.5vw] text-[#ccc]">Remains until the end of the offer</span>
                 </div>
-              </div>
-              <!-- Card 4 -->
-              <div class="w-[330px] h-[250px] shadow-xl border rounded-s mt-[20px] p-[15px]">
-                  <div class="card flex ">
-                      <!-- left side -->
-                      <div class="relative h-[100px] w-[160px] m-[15px] ">
-                          <img class="w-full" src="./assets home3/products/Link → 1-2-500x500.jpg.png" alt="products">
-                          <img class="w-[60px] absolute -bottom-4 -left-4" src="./assets home3/products/span.badge.png" alt="badge">
-                          <div class="bg-[#DC2626] h-[25px] w-[30px] rounded-2xl absolute top-0 -left-3 text-center">
-                              <span class="text-[11px] text-white">75%</span>
-                          </div>
-                          <img class="absolute bottom-0 right-0 w-[20px]" src="./assets home3/products/Link.png" alt="link">
-                      </div>
-                      <!-- right side -->
-                      <div class="m-[15px]">
-                          <h3 class="text-[12px] font-semibold">100 Percent Apple Juice – 64
-                              fl oz Bottle</h3>
-                              <div class="flex mt-[5px] items-center">
-                                  <img src="./assets home3/products/Vector (1).png" alt="">
-                                  <img src="./assets home3/products/Vector (1).png" alt="">
-                                  <img src="./assets home3/products/Vector (1).png" alt="">
-                                  <img src="./assets home3/products/Vector (1).png" alt="">
-                                  <img src="./assets home3/products/Vector.png" alt=""> 
-                                  <span class="text-[11px] mx-[5px]">3</span>
-                              </div>
-                              <h4 class="text-red-500 text-[20px] font-bold">$0.50 <span class="text-black text-[15px] line-through">$1.99</span></h4>
-                              <button class="flex items-center justify-between w-full border border-[#634C9F] text-[#634C9F] rounded-2xl p-[3px] mt-[10px] text-[15px] pl-[20px]">Add to Cart <img src="./assets home3/products/Icon.png" alt="plus"></button>
-                      </div>
-                  </div>
-                  <div class="flex items-start gap-[5px] p-[15px] ">
-                      <div class="bg-[#eaeaeb] h-[20px] w-[26px] rounded-lg text-center text-[12px]">85</div>
-                      <div class="bg-[#eaeaeb] h-[20px] w-[26px] rounded-lg text-center text-[12px]">06</div>
-                      <div class="bg-[#eaeaeb] h-[20px] w-[26px] rounded-lg text-center text-[12px]">57</div>
-                      <div class=" h-[26px]  text-[12px]">:</div>
-                      <div class="bg-[#eaeaeb] h-[20px] w-[26px] rounded-lg text-center text-[12px]">08</div>
-                      <span class="text-[10px] ml-[15px] text-[#ccc]">Remains until the end of the offer</span>
-                  </div>
-              </div>
-          </div>
-
-          <div>
+            </div>
+            <!-- Card 3 -->
+            <div class="w-[23vw] h-[15vw]  border-[0.12vw] rounded-[0.5vw] mt-[1vw] p-[1vw]">
+                <div class="card flex ">
+                    <!-- left side -->
+                    <div class="relative h-[7.5vw] w-[12vw] m-[1vw] ">
+                        <img class="w-full" src="./assets/Products images/p2.png" alt="products">
+                        <img class="w-[4vw] absolute bottom-[0vw] -left-[1vw]" src="./assets home3/products/span.badge.png" alt="badge">
+                        <div class="bg-[#DC2626] h-[1.5vw] w-[2vw] rounded-[1.5vw] absolute top-[0vw] -left-[1vw] flex items-center justify-center">
+                            <p class="text-[0.6vw] text-white"><span >75%</span></p>
+                        </div>
+                        <img class="absolute bottom-[0vw] right-[0vw] w-[1vw]" src="./assets home3/products/Link.png" alt="link">
+                    </div>
+                    <!-- right side -->
+                    <div class="m-[1vw]">
+                        <h3 class="text-[1vw] font-semibold">100 Percent Apple Juice – 64
+                            fl oz Bottle</h3>
+                            <div class="flex my-[0.2vw] items-center">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector.png" alt=""> 
+                                <span class="text-[0.8vw] mx-[0.5vw]">3</span>
+                            </div>
+                            <h4 class="text-red-500 text-[1vw] font-bold">$0.50 <span class="text-black text-[0.6vw] line-through">$1.99</span></h4>
+                            <button class="flex items-center justify-between w-[9vw] border-[0.12vw] border-[0.12vw]-[#634C9F] text-[#634C9F] rounded-[1.5vw] p-[0.2vw] mt-[1vw] text-[1vw] pl-[1vw]">Add to Cart <img class="w-[1vw]" src="./assets home3/products/Icon.png" alt="plus"></button>
+                    </div>
+                </div>
+                <div class="flex items-start gap-[0.5vw] p-[0.5vw] ">
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">85</div>
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">06</div>
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">57</div>
+                    <div class=" h-[1.8vw]  text-[1vw]">:</div>
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">08</div>
+                    <span class="text-[0.6vw] ml-[0.5vw] text-[#ccc]">Remains until the end of the offer</span>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="w-[23vw] h-[15vw]  border-[0.12vw] rounded-[0.5vw] mt-[1vw] p-[1vw]">
+                <div class="card flex ">
+                    <!-- left side -->
+                    <div class="relative h-[7.5vw] w-[12vw] m-[1vw] ">
+                        <img class="w-full" src="./assets/Products images/p3.png" alt="products">
+                        <img class="w-[4vw] absolute bottom-[0vw] -left-[1vw]" src="./assets home3/products/span.badge.png" alt="badge">
+                        <div class="bg-[#DC2626] h-[1.5vw] w-[2vw] rounded-[1.5vw] absolute top-[0vw] -left-[1vw] flex items-center justify-center">
+                            <p class="text-[0.6vw] text-white"><span >75%</span></p>
+                        </div>
+                        <img class="absolute bottom-[0vw] right-[0vw] w-[1vw]" src="./assets home3/products/Link.png" alt="link">
+                    </div>
+                    <!-- right side -->
+                    <div class="m-[1vw]">
+                        <h3 class="text-[1vw] font-semibold">100 Percent Apple Juice – 64
+                            fl oz Bottle</h3>
+                            <div class="flex my-[0.2vw] items-center">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector.png" alt=""> 
+                                <span class="text-[0.8vw] mx-[0.5vw]">3</span>
+                            </div>
+                            <h4 class="text-red-500 text-[1vw] font-bold">$0.50 <span class="text-black text-[0.6vw] line-through">$1.99</span></h4>
+                            <button class="flex items-center justify-between w-[9vw] border-[0.12vw] border-[0.12vw]-[#634C9F] text-[#634C9F] rounded-[1.5vw] p-[0.2vw] mt-[1vw] text-[1vw] pl-[1vw]">Add to Cart <img class="w-[1vw]" src="./assets home3/products/Icon.png" alt="plus"></button>
+                    </div>
+                </div>
+                <div class="flex items-start gap-[0.5vw] p-[0.5vw] ">
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">85</div>
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">06</div>
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">57</div>
+                    <div class=" h-[1.8vw]  text-[1vw]">:</div>
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">08</div>
+                    <span class="text-[0.6vw] ml-[0.5vw] text-[#ccc]">Remains until the end of the offer</span>
+                </div>
+            </div>
             <!-- Card 5 -->
-            <div class="w-[330px] h-[250px] shadow-xl border rounded-s mt-[20px] p-[15px]">
-              <div class="card flex ">
-                  <!-- left side -->
-                  <div class="relative h-[100px] w-[160px] m-[15px] ">
-                      <img class="w-full" src="./assets home3/products/Link → 1-2-500x500.jpg.png" alt="products">
-                      <img class="w-[60px] absolute -bottom-4 -left-4" src="./assets home3/products/span.badge.png" alt="badge">
-                      <div class="bg-[#DC2626] h-[25px] w-[30px] rounded-2xl absolute top-0 -left-3 text-center">
-                          <span class="text-[11px] text-white">75%</span>
-                      </div>
-                      <img class="absolute bottom-0 right-0 w-[20px]" src="./assets home3/products/Link.png" alt="link">
-                  </div>
-                  <!-- right side -->
-                  <div class="m-[15px]">
-                      <h3 class="text-[12px] font-semibold">100 Percent Apple Juice – 64
-                          fl oz Bottle</h3>
-                          <div class="flex mt-[5px] items-center">
-                              <img src="./assets home3/products/Vector (1).png" alt="">
-                              <img src="./assets home3/products/Vector (1).png" alt="">
-                              <img src="./assets home3/products/Vector (1).png" alt="">
-                              <img src="./assets home3/products/Vector (1).png" alt="">
-                              <img src="./assets home3/products/Vector.png" alt=""> 
-                              <span class="text-[11px] mx-[5px]">3</span>
-                          </div>
-                          <h4 class="text-red-500 text-[20px] font-bold">$0.50 <span class="text-black text-[15px] line-through">$1.99</span></h4>
-                          <button class="flex items-center justify-between w-full border border-[#634C9F] text-[#634C9F] rounded-2xl p-[3px] mt-[10px] text-[15px] pl-[20px]">Add to Cart <img src="./assets home3/products/Icon.png" alt="plus"></button>
-                  </div>
-              </div>
-              <div class="flex items-start gap-[5px] p-[15px] ">
-                  <div class="bg-[#eaeaeb] h-[20px] w-[26px] rounded-lg text-center text-[12px]">85</div>
-                  <div class="bg-[#eaeaeb] h-[20px] w-[26px] rounded-lg text-center text-[12px]">06</div>
-                  <div class="bg-[#eaeaeb] h-[20px] w-[26px] rounded-lg text-center text-[12px]">57</div>
-                  <div class=" h-[26px]  text-[12px]">:</div>
-                  <div class="bg-[#eaeaeb] h-[20px] w-[26px] rounded-lg text-center text-[12px]">08</div>
-                  <span class="text-[10px] ml-[15px] text-[#ccc]">Remains until the end of the offer</span>
-              </div>
+            <div class="w-[23vw] h-[15vw]  border-[0.12vw] rounded-[0.5vw] mt-[1vw] p-[1vw]">
+                <div class="card flex ">
+                    <!-- left side -->
+                    <div class="relative h-[7.5vw] w-[12vw] m-[1vw] ">
+                        <img class="w-full" src="./assets/Products images/p4.png" alt="products">
+                        <img class="w-[4vw] absolute bottom-[0vw] -left-[1vw]" src="./assets home3/products/span.badge.png" alt="badge">
+                        <div class="bg-[#DC2626] h-[1.5vw] w-[2vw] rounded-[1.5vw] absolute top-[0vw] -left-[1vw] flex items-center justify-center">
+                            <p class="text-[0.6vw] text-white"><span >75%</span></p>
+                        </div>
+                        <img class="absolute bottom-[0vw] right-[0vw] w-[1vw]" src="./assets home3/products/Link.png" alt="link">
+                    </div>
+                    <!-- right side -->
+                    <div class="m-[1vw]">
+                        <h3 class="text-[1vw] font-semibold">100 Percent Apple Juice – 64
+                            fl oz Bottle</h3>
+                            <div class="flex my-[0.2vw] items-center">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector.png" alt=""> 
+                                <span class="text-[0.8vw] mx-[0.5vw]">3</span>
+                            </div>
+                            <h4 class="text-red-500 text-[1vw] font-bold">$0.50 <span class="text-black text-[0.6vw] line-through">$1.99</span></h4>
+                            <button class="flex items-center justify-between w-[9vw] border-[0.12vw] border-[0.12vw]-[#634C9F] text-[#634C9F] rounded-[1.5vw] p-[0.2vw] mt-[1vw] text-[1vw] pl-[1vw]">Add to Cart <img class="w-[1vw]" src="./assets home3/products/Icon.png" alt="plus"></button>
+                    </div>
+                </div>
+                <div class="flex items-start gap-[0.5vw] p-[0.5vw] ">
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">85</div>
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">06</div>
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">57</div>
+                    <div class=" h-[1.8vw]  text-[1vw]">:</div>
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">08</div>
+                    <span class="text-[0.6vw] ml-[0.5vw] text-[#ccc]">Remains until the end of the offer</span>
+                </div>
             </div>
             <!-- Card 6 -->
-            <div class="w-[330px] h-[250px] shadow-xl border rounded-s mt-[20px] p-[15px]">
-              <div class="card flex ">
-                  <!-- left side -->
-                  <div class="relative h-[100px] w-[160px] m-[15px] ">
-                      <img class="w-full" src="./assets home3/products/Link → 1-2-500x500.jpg.png" alt="products">
-                      <img class="w-[60px] absolute -bottom-4 -left-4" src="./assets home3/products/span.badge.png" alt="badge">
-                      <div class="bg-[#DC2626] h-[25px] w-[30px] rounded-2xl absolute top-0 -left-3 text-center">
-                          <span class="text-[11px] text-white">75%</span>
-                      </div>
-                      <img class="absolute bottom-0 right-0 w-[20px]" src="./assets home3/products/Link.png" alt="link">
-                  </div>
-                  <!-- right side -->
-                  <div class="m-[15px]">
-                      <h3 class="text-[12px] font-semibold">100 Percent Apple Juice – 64
-                          fl oz Bottle</h3>
-                          <div class="flex mt-[5px] items-center">
-                              <img src="./assets home3/products/Vector (1).png" alt="">
-                              <img src="./assets home3/products/Vector (1).png" alt="">
-                              <img src="./assets home3/products/Vector (1).png" alt="">
-                              <img src="./assets home3/products/Vector (1).png" alt="">
-                              <img src="./assets home3/products/Vector.png" alt=""> 
-                              <span class="text-[11px] mx-[5px]">3</span>
-                          </div>
-                          <h4 class="text-red-500 text-[20px] font-bold">$0.50 <span class="text-black text-[15px] line-through">$1.99</span></h4>
-                          <button class="flex items-center justify-between w-full border border-[#634C9F] text-[#634C9F] rounded-2xl p-[3px] mt-[10px] text-[15px] pl-[20px]">Add to Cart <img src="./assets home3/products/Icon.png" alt="plus"></button>
-                  </div>
-              </div>
-              <div class="flex items-start gap-[5px] p-[15px] ">
-                  <div class="bg-[#eaeaeb] h-[20px] w-[26px] rounded-lg text-center text-[12px]">85</div>
-                  <div class="bg-[#eaeaeb] h-[20px] w-[26px] rounded-lg text-center text-[12px]">06</div>
-                  <div class="bg-[#eaeaeb] h-[20px] w-[26px] rounded-lg text-center text-[12px]">57</div>
-                  <div class=" h-[26px]  text-[12px]">:</div>
-                  <div class="bg-[#eaeaeb] h-[20px] w-[26px] rounded-lg text-center text-[12px]">08</div>
-                  <span class="text-[10px] ml-[15px] text-[#ccc]">Remains until the end of the offer</span>
-              </div>
+            <div class="w-[23vw] h-[15vw]  border-[0.12vw] rounded-[0.5vw] mt-[1vw] p-[1vw]">
+                <div class="card flex ">
+                    <!-- left side -->
+                    <div class="relative h-[7.5vw] w-[12vw] m-[1vw] ">
+                        <img class="w-full" src="./assets/Products images/p5.png" alt="products">
+                        <img class="w-[4vw] absolute bottom-[0vw] -left-[1vw]" src="./assets home3/products/span.badge.png" alt="badge">
+                        <div class="bg-[#DC2626] h-[1.5vw] w-[2vw] rounded-[1.5vw] absolute top-[0vw] -left-[1vw] flex items-center justify-center">
+                            <p class="text-[0.6vw] text-white"><span >75%</span></p>
+                        </div>
+                        <img class="absolute bottom-[0vw] right-[0vw] w-[1vw]" src="./assets home3/products/Link.png" alt="link">
+                    </div>
+                    <!-- right side -->
+                    <div class="m-[1vw]">
+                        <h3 class="text-[1vw] font-semibold">100 Percent Apple Juice – 64
+                            fl oz Bottle</h3>
+                            <div class="flex my-[0.2vw] items-center">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector.png" alt=""> 
+                                <span class="text-[0.8vw] mx-[0.5vw]">3</span>
+                            </div>
+                            <h4 class="text-red-500 text-[1vw] font-bold">$0.50 <span class="text-black text-[0.6vw] line-through">$1.99</span></h4>
+                            <button class="flex items-center justify-between w-[9vw] border-[0.12vw] border-[0.12vw]-[#634C9F] text-[#634C9F] rounded-[1.5vw] p-[0.2vw] mt-[1vw] text-[1vw] pl-[1vw]">Add to Cart <img class="w-[1vw]" src="./assets home3/products/Icon.png" alt="plus"></button>
+                    </div>
+                </div>
+                <div class="flex items-start gap-[0.5vw] p-[0.5vw] ">
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">85</div>
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">06</div>
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">57</div>
+                    <div class=" h-[1.8vw]  text-[1vw]">:</div>
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">08</div>
+                    <span class="text-[0.6vw] ml-[0.5vw] text-[#ccc]">Remains until the end of the offer</span>
+                </div>
             </div>
-          </div>
-
+            <!-- Card 7 -->
+            <div class="w-[23vw] h-[15vw]  border-[0.12vw] rounded-[0.5vw] mt-[1vw] p-[1vw]">
+                <div class="card flex ">
+                    <!-- left side -->
+                    <div class="relative h-[7.5vw] w-[12vw] m-[1vw] ">
+                        <img class="w-full" src="./assets/Products images/p6.png" alt="products">
+                        <img class="w-[4vw] absolute bottom-[0vw] -left-[1vw]" src="./assets home3/products/span.badge.png" alt="badge">
+                        <div class="bg-[#DC2626] h-[1.5vw] w-[2vw] rounded-[1.5vw] absolute top-[0vw] -left-[1vw] flex items-center justify-center">
+                            <p class="text-[0.6vw] text-white"><span >75%</span></p>
+                        </div>
+                        <img class="absolute bottom-[0vw] right-[0vw] w-[1vw]" src="./assets home3/products/Link.png" alt="link">
+                    </div>
+                    <!-- right side -->
+                    <div class="m-[1vw]">
+                        <h3 class="text-[1vw] font-semibold">100 Percent Apple Juice – 64
+                            fl oz Bottle</h3>
+                            <div class="flex my-[0.2vw] items-center">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector.png" alt=""> 
+                                <span class="text-[0.8vw] mx-[0.5vw]">3</span>
+                            </div>
+                            <h4 class="text-red-500 text-[1vw] font-bold">$0.50 <span class="text-black text-[0.6vw] line-through">$1.99</span></h4>
+                            <button class="flex items-center justify-between w-[9vw] border-[0.12vw] border-[0.12vw]-[#634C9F] text-[#634C9F] rounded-[1.5vw] p-[0.2vw] mt-[1vw] text-[1vw] pl-[1vw]">Add to Cart <img class="w-[1vw]" src="./assets home3/products/Icon.png" alt="plus"></button>
+                    </div>
+                </div>
+                <div class="flex items-start gap-[0.5vw] p-[0.5vw] ">
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">85</div>
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">06</div>
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">57</div>
+                    <div class=" h-[1.8vw]  text-[1vw]">:</div>
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">08</div>
+                    <span class="text-[0.6vw] ml-[0.5vw] text-[#ccc]">Remains until the end of the offer</span>
+                </div>
+            </div>
+            <!-- Card 8 -->
+            <div class="w-[23vw] h-[15vw]  border-[0.12vw] rounded-[0.5vw] mt-[1vw] p-[1vw]">
+                <div class="card flex ">
+                    <!-- left side -->
+                    <div class="relative h-[7.5vw] w-[12vw] m-[1vw] ">
+                        <img class="w-full" src="./assets/Products images/p7.png" alt="products">
+                        <img class="w-[4vw] absolute bottom-[0vw] -left-[1vw]" src="./assets home3/products/span.badge.png" alt="badge">
+                        <div class="bg-[#DC2626] h-[1.5vw] w-[2vw] rounded-[1.5vw] absolute top-[0vw] -left-[1vw] flex items-center justify-center">
+                            <p class="text-[0.6vw] text-white"><span >75%</span></p>
+                        </div>
+                        <img class="absolute bottom-[0vw] right-[0vw] w-[1vw]" src="./assets home3/products/Link.png" alt="link">
+                    </div>
+                    <!-- right side -->
+                    <div class="m-[1vw]">
+                        <h3 class="text-[1vw] font-semibold">100 Percent Apple Juice – 64
+                            fl oz Bottle</h3>
+                            <div class="flex my-[0.2vw] items-center">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector (1).png" alt="">
+                                <img class="w-[0.8vw]" src="./assets home3/products/Vector.png" alt=""> 
+                                <span class="text-[0.8vw] mx-[0.5vw]">3</span>
+                            </div>
+                            <h4 class="text-red-500 text-[1vw] font-bold">$0.50 <span class="text-black text-[0.6vw] line-through">$1.99</span></h4>
+                            <button class="flex items-center justify-between w-[9vw] border-[0.12vw] border-[0.12vw]-[#634C9F] text-[#634C9F] rounded-[1.5vw] p-[0.2vw] mt-[1vw] text-[1vw] pl-[1vw]">Add to Cart <img class="w-[1vw]" src="./assets home3/products/Icon.png" alt="plus"></button>
+                    </div>
+                </div>
+                <div class="flex items-start gap-[0.5vw] p-[0.5vw] ">
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">85</div>
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">06</div>
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">57</div>
+                    <div class=" h-[1.8vw]  text-[1vw]">:</div>
+                    <div class="bg-[#eaeaeb] h-[1vw] w-[1.6vw] rounded-lg text-center text-[0.7vw]">08</div>
+                    <span class="text-[0.6vw] ml-[0.5vw] text-[#ccc]">Remains until the end of the offer</span>
+                </div>
+            </div>
+            
         </div>
     </section>
-    <script src="./main.js"></script>
-    <img src="" alt="">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="./main.js"></script>
 </body>
 </html>

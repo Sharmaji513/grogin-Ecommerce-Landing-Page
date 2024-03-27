@@ -12,6 +12,7 @@ module.exports = {
 
 
         'hero-pattern': "url('./assets/bannerLarge.png')",
+        'bubble': "url('./assets/contriburtion.jpg')",
 
         'svg-1': "url('./assets/SVG-1.png')",
         'svg-2': "url('./assets/SVG-2.png')",
